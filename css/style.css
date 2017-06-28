@@ -1,3 +1,26 @@
+
+img{
+  width: 300px;
+}
+h1{
+  color: #142ba8;
+}
+p{
+  color: #142ba8;
+}
 .column{
-  
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+.column p{
+  font-family: sans-serif;
+  color: black;
+}
+.column ul{
+  font-style: italic;
+}
+.column h2{
+  color: purple;
+  text-align: center;
 }
