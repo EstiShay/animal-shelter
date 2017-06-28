@@ -1,25 +1,40 @@
+body{
+  background-color: #f7efde;
+}
 
 img{
   width: 300px;
 }
+
 h1{
   color: #142ba8;
+  font-family: noteworthy;
 }
+
 p{
   color: #142ba8;
+  font-size: 20px;
 }
+
 .column{
   width: 300px;
   float: left;
   margin: 10px;
+  border: 3px solid purple;
+  padding: 10px;
+  height: 600px;
 }
+
 .column p{
   font-family: sans-serif;
   color: black;
+  font-size: 16px;
 }
+
 .column ul{
   font-style: italic;
 }
+
 .column h2{
   color: purple;
   text-align: center;
