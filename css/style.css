@@ -39,3 +39,35 @@ p{
   color: purple;
   text-align: center;
 }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  img {
+    display: block;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .column {
+    width: 600px;
+  }
+
+  .column p {
+    text-align: left;
+  }
+}
